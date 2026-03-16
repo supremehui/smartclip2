@@ -1,3 +1,4 @@
+# Android 编译废料
 *.iml
 .gradle
 /local.properties
