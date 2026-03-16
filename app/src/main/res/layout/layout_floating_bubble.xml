@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_bubble_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_capsule_bubble"
+    android:elevation="14dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="27dp"
+    android:paddingEnd="34dp"
+    android:paddingTop="17dp"
+    android:paddingBottom="17dp">
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:src="@android:drawable/ic_menu_search" />
+
+    <TextView
+        android:id="@+id/tv_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:text="打开链接"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</LinearLayout>

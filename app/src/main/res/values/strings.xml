@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SmartClip</string>
+    <string name="accessibility_description">SmartClip 需要此权限来监听剪贴板变化，以便为您提供购物口令、网址和地址的快速跳转服务。本应用承诺所有数据仅在本地处理，绝不上传云端。</string>
+</resources>
